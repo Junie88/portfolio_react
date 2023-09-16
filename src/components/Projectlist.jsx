@@ -1,10 +1,10 @@
 import * as React from 'react';
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import servicerecovery from '/src/assets/images/project_rating_web.png'
-import smartshelves from "/src/assets/images/project_smart-shelves_iot.png";
-import attendance from "/src/assets/images/project.jpg";
-import portfolio from "/src/assets/images/project_portfolio.png";
+import servicerecovery from '../Assets/images/project_rating_web.png'
+import smartshelves from "../Assets/images/project_smart-shelves_iot.png";
+import attendance from "../Assets/images/project.jpg";
+import portfolio from "../Assets/images/project_portfolio.png";
 import "../pages/style.css";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
