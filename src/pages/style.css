@@ -200,7 +200,7 @@
   margin-top: 50px;
   max-width: 550px;
   height: 400px;
-  background-image: url(../assets/Web-designer-1024x821.webp);
+  background-image: url(../Assets/Web-designer-1024x821.webp);
   background-size: cover;
   background-position: center;
 }
@@ -323,7 +323,7 @@
   width: 100%;
   /* height: 450px; */
   height: 120%;
-  background-image: url(../assets/dolphin-aboutpage.png);
+  background-image: url(../Assets/dolphin-aboutpage.png);
   background-size: cover;
   background-position: center;
 }
