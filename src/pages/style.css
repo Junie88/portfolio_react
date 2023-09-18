@@ -437,6 +437,9 @@
   .modal-detail .modal-title{
     margin-top: 10%;
   } 
+  .modal-detail .modal-title-rate{
+    margin-top: 20%;
+  }
 }
 
 
