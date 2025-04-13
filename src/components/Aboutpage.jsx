@@ -25,14 +25,7 @@ function Aboutpage() {
                 About <span>Me</span>
               </h3>
               <p className="aboutdetails">
-                Detail-oriented team player with strong organizational skills.
-                Ability to handle multiple projects simultaneously with a high
-                degree of accuracy. Expert on business and systems requirements,
-                user acceptance testing, and end-user training. Accomplished at
-                leveraging past lessons to inform future decision-making.
-                Organized and dependable candidate successful at managing
-                multiple priorities with a positive attitude. Willingness to
-                take on added responsibilities to meet team goals.
+              Detail-oriented and dependable tech professional with strong organizational skills and a proven ability to manage multiple projects simultaneously with high accuracy. Experienced in gathering business and system requirements, conducting user acceptance testing (UAT), and delivering end-user training. Known for being a team player with a positive attitude and a willingness to take on added responsibilities to achieve team goals. Adept at drawing on past experiences to make informed, future-oriented decisions.
               </p>
               <div className="skillsContainer">
                 <div className="skill--scroll">
