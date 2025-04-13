@@ -48,7 +48,7 @@ function Projectlist() {
     <div className="projectbackground">
       <Container fluid className="project-section">
         <Container>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Row className="row-project" style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={servicerecovery}

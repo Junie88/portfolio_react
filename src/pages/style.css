@@ -135,8 +135,11 @@
   background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.row {
-  padding-top: 80px;
+.row{
+  padding-top: 15px;
+}
+.row-project {
+  padding-top: 90px;
 }
 
 .wave {
@@ -276,7 +279,6 @@
 }
 .card-details{
   background-color: transparent;
-  border-radius: 15px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
 }
@@ -387,7 +389,9 @@
   padding: 20px !important;
   opacity: 0.8 !important;
   border-radius: 10px !important;
-  /* height: 50%; */
+  width: 100%;
+  height: 250px; 
+  object-fit: cover;
 }
 .viewbtn {
   display: flex !important;
@@ -396,6 +400,7 @@
   font-size: 18px !important;
   letter-spacing: 1px;
   font-family: 'Poppins' !important;
+  color:#191919;
 }
 
 .btn-primary {
@@ -406,8 +411,8 @@
 
 .btn-primary:hover {
   color: #e8e8e8 !important;
-  background-color: transparent !important;
-  border-color: #e8e8e8 !important;
+  background-color: blue !important;
+  border-color: blue !important;
 }
 .btn:focus {
   outline: none !important;

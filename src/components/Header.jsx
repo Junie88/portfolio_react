@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import "../pages/style.css";
-
+import { AiOutlineFilePdf } from "react-icons/ai";
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -82,12 +82,12 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1Y31m7ETajqcCH_7exudFodXDRXYCAYt-/view?usp=drive_link"
+                "https://drive.google.com/file/d/17dgdibwZumirGtBTCYOWsbD5duJybdja/view?usp=sharing"
               );
             }}
             className="resumebtn"
           >
-            <span>Resume</span>
+            <span>Resume <AiOutlineFilePdf /></span>
           </Button>
         </Nav>
       </Navbar.Collapse>
