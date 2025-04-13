@@ -20,7 +20,7 @@ function Aboutpage() {
       <div className="aboutpagebackground">
         <Container>
           <Row className="textbackground">
-            <Col md={7}>
+            <Col>
               <h3 className="aboutmetext">
                 About <span>Me</span>
               </h3>
@@ -58,24 +58,21 @@ function Aboutpage() {
                 </div>
               </div>
             </Col>
-            <Col md={5}>
-              <div className="webimage"></div>
-            </Col>
           </Row>
           <br />
           <Row className="textbackground">
             <Col md={12}>
               <h3 className="aboutmetext">Academics</h3>
               <p className="aboutdetails">Educational Background</p>
-              <MDBRow className="row-cols-1 row-cols-md-2 g-5" style={{textAlign:'center'}}>
+              <MDBRow className="row-cols-1 row-cols-md-2 g-5" style={{textAlign:'left'}}>
                 <MDBCol>
                 <MDBCard className='card-details border-light' style={{ backgroundColor: 'transparent'}}>
                     <MDBCardBody>
                     <MDBCardSubTitle>2018-2021</MDBCardSubTitle>
                       <MDBCardTitle>Asia Pacific University</MDBCardTitle>
                       <MDBCardText>
-                      Bachelor of Science in Information Technology Specialism in Internet of Things
-                      <p>Achieved APU Merit Scholarship with CGPA 3.50</p>
+                      BSc.(Hons) in Information Technology Specialism in Internet of Things (IoT)
+                      <li>Achieved APU Merit Scholarship with CGPA 3.60</li>
                       </MDBCardText>
                     </MDBCardBody>
                   </MDBCard>
@@ -87,7 +84,7 @@ function Aboutpage() {
                       <MDBCardTitle>Methodist Binjai</MDBCardTitle>
                       <MDBCardText>
                       General Studies
-                      <p>Averall Score 91/100</p>
+                      <li>Averall Score 91/100</li>
                       <br/>
                       </MDBCardText>
                     </MDBCardBody>
@@ -103,28 +100,35 @@ function Aboutpage() {
             <Col md={12}>
               <h3 className="aboutmetext">Experience</h3>
               <p className="aboutdetails">Professional Experience</p>
-              <MDBRow className="row-cols-1 row-cols-md-2 g-3" style={{textAlign:'center'}}>
+              <MDBRow className="row-cols-1 row-cols-md-1 g-5">
                 <MDBCol>
                   <MDBCard className='card-details border-light' style={{ backgroundColor: 'transparent'}}>
                     <MDBCardBody>
-                    <MDBCardSubTitle>2022-now</MDBCardSubTitle>
-                      <MDBCardTitle>Professional Services Engineer <br/> Juris Technologies</MDBCardTitle>
+                    <MDBCardTitle>2022-now</MDBCardTitle>
+                      <MDBCardTitle>IT Business Analyst <br/> Juris Technologies</MDBCardTitle>
                       <MDBCardText>
                       <ul>
-                        <li>Translate business requirements and technical information into non-technical terms for communication and collaboration with development, operations and leadership groups</li>
-                        <li>Investigated and fixed technical issues in the integration of digital documents between front-end and back-end applications</li>
-                        <li>Provide customer examples and data for reported issues, work cross-functionally with support teams to establish workarounds for issues requiring funding for permanent resolution, and conduct tests on development fixes to ensure changes are working as expected.</li>
-                        <li>Provide customer examples and data for reported issues, work cross-functionally with support teams to establish workarounds for issues requiring funding for permanent resolution, and conduct tests on development fixes to ensure changes are working as expected.</li>
+                      <li>Developed web-based solutions, streamlining loan origination and servicing processes.</li>
+                      <li>Played a key role in system go-live, ensuring smooth transition and minimal operational impact.</li>
+                      <li>Guided junior analysts and programmers, providing mentorship and ensuring project success.</li>
+                      <li>Advised stakeholders on aligning system capabilities with business needs in commercial banking.</li>
+                      <li>Designed, developed, and maintained web applications, integrating backend solutions with PHP, PL/SQL, and SQL procedures.</li>
+                      <li>Performed software testing, including functional, regression, and UAT,to ensure quality and system stability.</li>
+                      <li>Assisted in analyzing business requirements and translating them into technical specifications.</li>
+                      <li>Collaborated with development teams to design, test, and implement system solutions.</li>
+                      <li>Assisted in software testing, debugging, and documenting system Functionalities.</li>
+                      <li>Participated in meetings with stakeholders to gather requirements and present solutions.</li>
                       </ul>
-                      <br/><br/><br/><br/>
                       </MDBCardText>
                     </MDBCardBody>
                   </MDBCard>
                 </MDBCol>
-                <MDBCol>
+              </MDBRow>
+              <MDBRow className="row-cols-1 row-cols-md-1 g-5">
+              <MDBCol>
                 <MDBCard className='card-details border-light' style={{ backgroundColor: 'transparent'}}>
                 <MDBCardBody>
-                    <MDBCardSubTitle>2021-2022</MDBCardSubTitle>
+                    <MDBCardTitle>2021-2022</MDBCardTitle>
                       <MDBCardTitle> Web Developer <br/> Limitless Technology </MDBCardTitle>
                       <MDBCardText>
                       <ul>
@@ -145,11 +149,11 @@ function Aboutpage() {
                   </MDBCard>
                 </MDBCol>
               </MDBRow>
-              <MDBRow className="row-cols-1 row-cols-md-1" style={{textAlign:'center'}}>
+              <MDBRow className="row-cols-1 row-cols-md-1 g-5">
               <MDBCol>
-              <MDBCard className='card-details border-light' style={{ backgroundColor: 'transparent'}}>
-                    <MDBCardBody>
-                    <MDBCardSubTitle>July 2020 - October 2020</MDBCardSubTitle>
+                <MDBCard className='card-details border-light' style={{ backgroundColor: 'transparent'}}>
+                  <MDBCardBody>
+                    <MDBCardTitle>July 2020 - October 2020</MDBCardTitle>
                       <MDBCardTitle>Software Developer (Internship) <br/> QubeApps Solution Sdn Bhd</MDBCardTitle>
                       <MDBCardText>
                       <ul>
